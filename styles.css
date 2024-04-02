@@ -1,0 +1,28 @@
+.side-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+ .header {
+    display: flex;
+    flex: 1;
+}
+
+.search-box-div {
+    padding-top: 15px;
+} 
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.dashboard-h2 {
+    margin: 0px;
+}
