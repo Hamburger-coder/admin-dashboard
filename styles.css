@@ -1,20 +1,46 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+}
+
 .side-nav {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
 .sidebar {
     display: flex;
     flex-direction: column;
+    list-style: none;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+ul > li {
+    padding: 10px;
+    padding-left: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    
 }
 
  .header {
+    padding: 10px;
     display: flex;
-    flex: 1;
+    flex: 1; 
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
 }
 
-.search-box-div {
+.search-icon-and-box-div {
+    display: flex;
     padding-top: 15px;
+    justify-content: flex-start;
 } 
 
 body {
@@ -23,6 +49,58 @@ body {
     margin: 0px;
 }
 
-.dashboard-h2 {
+.dashboard-h1 {
+    display: flex;
     margin: 0px;
+    align-items: center;
+}
+
+.search-icon-and-box-div {
+    display: flex;
+}
+
+
+.name-h2 {
+    margin: 0;
+    
+}
+
+.bell-puppy-thorodinson {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: .3;
+    /* padding-left: 600px; */
+  }
+  
+.searchbox {
+    width: 30vw;
+    height: 30px;
+    border-radius: 25px;
+    background: #e2e8f0;
+    border: #e2e8f0;
+}
+
+.searchbox:hover {
+    background: #d5dbe2;
+}
+
+#communities {
+    padding-bottom: 50px;
+}
+ul > li {
+    font-size: 30px;
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgba(0, 0, 0, 0.753);
+}
+
+li > a > img {
+    padding-right: 20px;
 }

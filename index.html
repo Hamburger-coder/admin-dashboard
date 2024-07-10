@@ -8,23 +8,33 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <section class="header">
-        <h2 class="dashboard-h2">Dashboard</h2>
-        <img src="./SVG's/magnify.svg" alt="search magnifying glass icon" width="30px">
-        <div class="search-box-div">
-            <input type="text" class="searchbox" placeholder="Search Bar" name="search">
+    <header class="header">
+        
+        <h1 class="dashboard-h1"> <img src="./SVG's/home.svg" alt="home icon" height="50px"> Dashboard</h2>
+        <div class="search-icon-and-box-div">
+            <img src="./SVG's/magnify.svg" alt="search magnifying glass icon" width="30px">
+            <div class="search-box-div">
+                <input type="text" class="searchbox" name="search">
+            </div>
         </div>
-        <img src="./SVG's/bell-ring-outline.svg" alt="notification bell" width="30px">
-    </section>
+        <div class="bell-puppy-thorodinson">
+            <img src="./SVG's/bell-ring-outline.svg" alt="notification bell" width="30px">
+            <img src="./SVG's/doggy.png" alt="puppy dog" height="50" class="puppy-dog">
+            <h2 class="name-h2">Thor Odinson</h2>
+        </div>
+    </header>
     <section class="side-nav">
-        <div class="sidebar">
-            <a href="#">Home</a>
-            <a href="#">Profile</a>
-            <a href="#">Messages</a>
-            <a href="#">History</a>
-            <a href="#">Tasks</a>
-            <a href="#">Communities</a>
-        </div>
+        <ul class="sidebar">
+            <li><a href="#"><img src="./SVG's/home-variant.svg" alt="home-icon" width="30px">Home</a></li>
+            <li><a href="#"><img src="./SVG's/account.svg" alt="profile-icon" width="30px">Profile</a></li>
+            <li><a href="#"><img src="./SVG's/message-reply.svg" alt="messages-icon" width="30px">Messages</a></li>
+            <li><a href="#"><img src="./SVG's/clock-time-three.svg" alt="history-icon" width="30px">History</a></li>
+            <li><a href="#"><img src="./SVG's/file-document-multiple.svg" alt="tasks-icon" width="30px">Tasks</a></li>
+            <li id="communities"><a href="#"><img src="./SVG's/account-group.svg" alt="communities-icon" width="30px">Communities</a></li>
+            <li><a href="#"><img src="./SVG's/cog.svg" alt="settings-icon" width="30px">Settings</a></li>
+            <li><a href="#"><img src="./SVG's/help-box.svg" alt="support-icon" width="30px">Support</a></li>
+            <li><a href="#"><img src="./SVG's/shield-check.svg" alt="privacy-icon" width="30px">Privacy</a></li>
+        </ul>
     </section>
 </body>
 </html>
