@@ -13,9 +13,7 @@ body {
     /* flex-direction: column; */
     flex-direction: column;
     list-style: none;
-    padding: 0px;
-    justify-content: space-between;
-}
+    padding: 0px;}
 
 .sidebar {
     /* display: flex; */
@@ -35,7 +33,7 @@ ul > li {
     /* flex: 1;  */
     /* flex-direction: row; */
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .search-icon-and-box-div {
@@ -109,11 +107,61 @@ li > a > img {
 .header-grid {
     display: grid;
     height: 100vh;
-    grid-template-rows: 1fr 3fr;
+    grid-template-rows: .7fr .7fr 3fr;
 }
 
 .side-navGrid {
     display: grid;
     /* grid-template-rows: 1fr 1fr; */
     height: 100vh;
+}
+
+.lower-part-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-icon {
+    margin-right: 20px;
+}
+
+.puppy-dog {
+    padding-right: 20px;
+}
+
+.button {
+    background-color: #1d4ed8;
+    color: white;
+    font-weight: bold;
+    /* padding: 10px 20px; */
+    border-radius: 9999px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 94px;
+    height: 37px;
+}
+
+.button:hover {
+    background-color: #2563eb;
+}
+
+.button:active {
+    background-color: #1e40af;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button-div {
+    display: flex;
+    align-items: center;
+    width: 30vw;
+    justify-content: space-around;
+}
+
+.dogg-hi-thor {
+    display: flex;
 }
