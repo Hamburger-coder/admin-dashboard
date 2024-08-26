@@ -184,3 +184,23 @@ li > a > img {
 .trending {
     background-color: rgba(128, 240, 240, 0.637);
 }
+
+.project-div {
+    /* align-content: center; */
+    display: flex;
+    flex-direction: column;
+    height: 195px;
+    width: 342px;
+    background-color: aquamarine;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+.project-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    padding: 20px;
+    padding-left: 60px;
+}
