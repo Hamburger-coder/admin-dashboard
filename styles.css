@@ -165,3 +165,22 @@ li > a > img {
 .dogg-hi-thor {
     display: flex;
 }
+
+.main {
+    display: grid;
+    grid-template-columns: 80fr 20fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.projects {
+    grid-row: span 2;
+    background-color: rgba(240, 128, 128, 0.637);
+}
+
+.announcements {
+    background-color: rgba(178, 240, 128, 0.637);
+}
+
+.trending {
+    background-color: rgba(128, 240, 240, 0.637);
+}
