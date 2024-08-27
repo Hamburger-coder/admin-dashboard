@@ -34,6 +34,7 @@ ul > li {
     /* flex-direction: row; */
     justify-content: space-between;
     align-items: flex-start;
+    padding-left: 5vw;
 }
 
 .search-icon-and-box-div {
@@ -52,6 +53,8 @@ ul > li {
     display: flex;
     margin: 0px;
     align-items: center;
+    justify-content: center;
+    padding-right: 50px;
 }
 
 .search-icon-and-box-div {
@@ -61,7 +64,9 @@ ul > li {
 
 .name-h2 {
     margin: 0;
-    
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .bell-puppy-thorodinson {
@@ -114,6 +119,7 @@ li > a > img {
     display: grid;
     /* grid-template-rows: 1fr 1fr; */
     height: 100vh;
+    background-color: #1992D4;
 }
 
 .lower-part-header {
@@ -174,7 +180,7 @@ li > a > img {
 
 .projects {
     grid-row: span 2;
-    background-color: rgba(240, 128, 128, 0.637);
+    background-color: #DAE0E7;
 }
 
 .announcements {
@@ -193,14 +199,34 @@ li > a > img {
     width: 342px;
     background-color: aquamarine;
     border-style: solid;
-    border-width: 3px;
-    border-color: black;
+    border-width: 10px;
+    border-color: aquamarine;
 }
 
 .project-cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 25px;
+    gap: 35px;
     padding: 20px;
-    padding-left: 60px;
+    padding-left: 5vw;
+}
+
+h3 {
+    padding: 5px;
+}
+
+.side-nav > h1 {
+    /* color: white; */
+}
+
+.side-nav > ul > li > a {
+    /* color: white; */
+}
+
+img {
+    fill: white;
+}
+
+.notification-bell {
+    padding-right: 2vw;
 }
