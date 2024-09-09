@@ -16,9 +16,7 @@ body {
     padding: 0px;
 }
 
-.sidebar {
-    /* display: flex; */
-}
+
 
 ul > li {
     padding: 10px;
@@ -54,8 +52,8 @@ ul > li {
     display: flex;
     margin: 0px;
     align-items: center;
-    justify-content: center;
-    padding-right: 50px;
+    /* justify-content: center; */
+    /* padding-right: 50px; */
 }
 
 .search-icon-and-box-div {
@@ -218,13 +216,6 @@ h3 {
     padding: 5px;
 }
 
-.side-nav > h1 {
-    /* color: white; */
-}
-
-.side-nav > ul > li > a {
-    /* color: white; */
-}
 
 img {
     fill: white;
@@ -239,7 +230,7 @@ img {
 }
 
 .projects-h2 {
-    padding-left: 2vw;
+    margin-left: 3vw;
     padding-top: 1vw;
 }
 
@@ -249,4 +240,23 @@ html, body {
 
 body {
     min-height: 100vh;
+}
+
+h3 {
+    padding-left: 3vw;
+}
+
+div > p {
+    padding-left: 3vw;
+}
+
+.project-icons {
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+div > div > img {
+    padding: 5px;
 }
